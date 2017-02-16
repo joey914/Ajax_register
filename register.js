@@ -39,6 +39,7 @@ $(document).ready(function() {
                     success: function(data)     {         //data - response from server
                     if (data.success == true) {
                         alert("회원가입 성공");
+                        location.href="/users/joey9/documents/GitHub/Ajax_login/login_new.html";
                     }
                 },
                     error: function(xhr, status, error)     {
